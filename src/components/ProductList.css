@@ -75,6 +75,10 @@ body {
 }
 
 /* Pseudo-classes - Hover effect on product button */
+button:disabled {
+    opacity: 0.5; /* Reduce opacity */
+    cursor: not-allowed; /* Change cursor */
+  }
 .product-card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
